@@ -66,6 +66,7 @@ set et
 "set noautochdir
 "This sets indentation style for functions spanning multiple lines...:h C-indenting
 set cinoptions=(0
+highlight SpellBad ctermbg=cyan
 
 "------------------------------NORMAL MODE MAPPINGS----------------------------
 nnoremap <C-]> :ts <C-R><C-W><CR>
